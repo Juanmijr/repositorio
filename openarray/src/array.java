@@ -1,3 +1,4 @@
+
 public class array {
 
 
@@ -12,5 +13,11 @@ private static void rellenaarray(int array[]) {
 		}	
 	}
 
+private static void imprimearray (int array[]) {
+	for (int i = 0; i < array.length; i++) {
+		System.out.println(array[i]);
+	}
+		
+}
 
 }
