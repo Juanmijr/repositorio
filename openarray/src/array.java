@@ -4,6 +4,7 @@ public class array {
 public static void main(String[] args) {
 	int [] array = new int[10];
 	rellenaarray(array);
+	nuevometodo1(array);
 }
 
 private static void rellenaarray(int array[]) {
@@ -12,6 +13,10 @@ private static void rellenaarray(int array[]) {
 		}	
 	}
 
-
+private static void nuevometodo1 (int array[]) {
+	for (int i = 0; i < array.length; i++) {
+		System.out.println(array[i]);
+		}	
+}
 
 }
