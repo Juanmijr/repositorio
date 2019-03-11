@@ -17,6 +17,15 @@ private static void nuevometodo1 (int array[]) {
 	for (int i = 0; i < array.length; i++) {
 		System.out.println(array[i]);
 		}	
+	
+}
+
+private static void nuevometodo2 (int array[]) {
+
+	int cloneArray[] = array.clone();
+	for (int i = 0; i < array.length; i++) {
+		System.out.println(cloneArray[i]);
+		}	
 }
 
 }
