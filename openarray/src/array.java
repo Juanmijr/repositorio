@@ -11,6 +11,7 @@ private static void rellenaarray(int array[]) {
 		array[i] = (int)(Math.round(Math.random()*19)+ 1);
 		}	
 	}
+//illooooo
 
 
 }
