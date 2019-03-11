@@ -18,5 +18,12 @@ private static void nuevometodo1 (int array[]) {
 	}	
 }
 
+private static void nuevometodo2 (int array[]) {
+int suma = 0;
+	for (int i = 0; i < array.length; i++) {
+		suma = suma + array[i];
+	}	
+}
+
 
 }
